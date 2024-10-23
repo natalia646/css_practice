@@ -1,0 +1,22 @@
+.person:hover {
+  z-index: 1;
+}
+.person:hover .person__hover-position {
+  background-color: $card-bg-hover;
+  padding: 10px;
+  border-radius: 12px;
+  position: absolute;
+  transform: scale(1.2);
+}
+
+.person:hover .person__extra {
+  display: block;
+}
+
+.person:hover .person__extra {
+  display: block;
+}
+
+.person:hover .person__image {
+  border-radius: 60px;
+}

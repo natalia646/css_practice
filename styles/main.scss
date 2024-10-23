@@ -1,0 +1,26 @@
+@import "./units/variables";
+@import "./hover-card";
+@import "./person";
+
+.body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.people {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+  row-gap: 40px;
+  max-width: 460px;
+  margin: 30px auto;
+}
+
+@media (min-width: 1000px) {
+  .people {
+    max-width: 920px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
